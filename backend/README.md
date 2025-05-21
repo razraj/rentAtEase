@@ -26,6 +26,13 @@ http://127.0.0.1:8090/api/ - REST-ish API
 
 - [Pocketbase](https://pocketbase.io/) Pocketbase backend
 
+### Files
+
+Each uploaded file could be accessed by requesting its file url:
+http://127.0.0.1:8090/api/files/COLLECTION_ID_OR_NAME/RECORD_ID/FILENAME
+
+If your file field has the Thumb sizes option, you can get a thumb of the image file by adding the thumb query parameter to the url like this: http://127.0.0.1:8090/api/files/COLLECTION_ID_OR_NAME/RECORD_ID/FILENAME?thumb=100x300
+
 ### TODO
 
 - signup verification skipped for now.

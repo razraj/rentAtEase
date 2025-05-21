@@ -1,0 +1,17 @@
+/* Tailwind CSS organizes its styles into three main layers:
+@tailwind base;: This line injects Tailwind's base styles into your CSS.
+@tailwind components;: This line injects any custom component styles you've defined.
+@tailwind utilities;: This line injects all of Tailwind's utility classes.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+@layer base {
+  :root {
+    .body {
+      @media (prefers-color-scheme: light) {
+      }
+    }
+  }
+} */
