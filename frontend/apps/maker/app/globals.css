@@ -6,6 +6,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.rdp-caption_label {
+  z-index: 0;
+}
 /* 
 @layer base {
   :root {

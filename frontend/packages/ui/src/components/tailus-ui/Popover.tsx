@@ -25,7 +25,6 @@ const PopoverContent = React.forwardRef<
     />
   );
 });
-PopoverContent.displayName = "PopoverContent";
 
 const PopoverClose = React.forwardRef<
   React.ElementRef<typeof Popover.Close>,
@@ -41,7 +40,6 @@ const PopoverClose = React.forwardRef<
     />
   );
 });
-PopoverClose.displayName = "PopoverClose";
 
 const PopoverArrow = React.forwardRef<
   React.ElementRef<typeof Popover.Arrow>,
@@ -56,7 +54,10 @@ const PopoverArrow = React.forwardRef<
     />
   );
 });
+
 PopoverArrow.displayName = "PopoverArrow";
+PopoverContent.displayName = "PopoverContent";
+PopoverClose.displayName = "PopoverClose";
 
 export {
   PopoverRoot as Root,

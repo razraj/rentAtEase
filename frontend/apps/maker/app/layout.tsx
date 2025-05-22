@@ -1,8 +1,9 @@
+import "react-day-picker/style.css";
+import "./globals.css";
 import "@repo/ui/styles.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { SWRConfig } from "swr";
-import "./globals.css";
 import { StoreProvider } from "./contexts/StoreProvider";
 
 const inter = Inter({ subsets: ["latin"] });

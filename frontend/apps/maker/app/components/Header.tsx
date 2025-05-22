@@ -13,26 +13,8 @@ export const Header = () => {
             <BrandIcon className="mx-auto" />
           </div>
           <Title size="base" weight="medium">
-            Criador
+            RentAtEase
           </Title>
-          <Link.Root link="#">
-            <Link.Label>File</Link.Label>
-          </Link.Root>
-          <Link.Root link="#">
-            <Link.Icon>
-              <Crown />
-            </Link.Icon>
-            <Link.Label>Resize</Link.Label>
-          </Link.Root>
-          <Link.Root link="#">
-            <Link.Icon>
-              <Pencil />
-            </Link.Icon>
-            <Link.Label>Editing</Link.Label>
-            <Link.Icon>
-              <ChevronDown />
-            </Link.Icon>
-          </Link.Root>
           <Separator className="mx-4" orientation="vertical" />
         </div>
         <div className="flex gap-3">
