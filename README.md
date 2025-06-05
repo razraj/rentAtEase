@@ -4,6 +4,9 @@ PocketBase is an open source backend consisting of embedded database (SQLite).
 
 Run this application on a MacOS ARM64 machine. If not download latest pocketbase from github and copy past bellow folder there.
 
+For more documentation check
+[Pocketbase](https://pocketbase.io/docs/)
+
 ```
 backend/pb_data
 backend/pb_migrations
